@@ -1,0 +1,28 @@
+C:\Users\maria\untitled1>python manage.py runserver
+Performing system checks...
+
+System check identified no issues (0 silenced).
+December 02, 2016 - 16:13:26
+Django version 1.10.3, using settings 'untitled1.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+
+
+C:\Users\maria\untitled1>python manage.py createsuperuser
+Username (leave blank to use 'maria'):
+Email address: marialb.12aa@outlook.com
+Password:
+Password (again):
+Superuser created successfully.
+
+
+C:\Users\maria\untitled1>python manage.py migrate
+Operations to perform:
+  Apply all migrations: admin, auth, blog, contenttypes, sessions
+Running migrations:
+  Applying admin.0001_initial... OK
+  Applying admin.0002_logentry_remove_auto_add... OK
+  Applying contenttypes.0002_remove_content_type_name... OK
+  Applying auth.0002_alter_permission_name_max_length... OK
+  Applying auth.0003_alter_user_email_max_length... OK
